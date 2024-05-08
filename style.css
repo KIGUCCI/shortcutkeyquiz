@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.learning-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.question-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.mode-selection button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+
+
+/* 学習モード */
+table {
+  width: 50%; /* 画面幅の50%に設定 */
+  margin-left: 25%;
+  margin-right: 25%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align:left;
+  border-right: 1px solid #ddd; /* セル間の縦線を追加 */
+  border-bottom: 1px solid #ddd; /* セル間の横線を追加 */
+  border-top: 1px solid #ddd;
+}
+
+th {
+  background-color: #60c5ec;
+}
+
+th:last-child, td:last-child {
+  border-right: none;
+}                               /* 最後の列の縦線を削除 */
+
+
+/* テストモード */
+#question {
+  font-size: 20px;
+  text-align: center;
+}
+
+#options button{
+  margin-top: 30px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#nextBtn {
+  margin-top: 20px;
+  position: center;
+}
+
