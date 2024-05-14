@@ -8,7 +8,7 @@ app.use(express.static('public'));
 
 // ルートの定義
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public', 'index.html')); // index.htmlを返す
+    res.sendFile(path.join(__dirname, 'public', 'index.html')); // index.htmlを返す
 });
 
 // サーバーの起動
