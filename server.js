@@ -4,11 +4,11 @@ const path = require('path');
 const app = express();
 
 // 静的ファイルの提供
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'src', 'public')));
 
 // ルートの定義
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html')); // index.htmlを返す
+    res.sendFile(path.join(__dirname, 'src', 'public', 'index.html')); // index.htmlを返す
 });
 
 // サーバーの起動
