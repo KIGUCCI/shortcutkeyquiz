@@ -1,10 +1,10 @@
 const express = require('express');
-const path = require('path'); // pathモジュールを追加
+const path = require('path');
 
 const app = express();
 
 // 静的ファイルの提供
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // ルートの定義
 app.get('/', (req, res) => {
