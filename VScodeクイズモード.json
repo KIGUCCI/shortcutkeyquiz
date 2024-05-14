@@ -1,0 +1,201 @@
+[
+    {
+      "question1": "コピー",
+      "answers": [ "Shift + C", "Ctrl + C", "Ctrl + V", "Ctrl + X"],
+      "correct": "Ctrl + C"
+    },
+    {
+      "question2": "ペースト",
+      "answers": [ "Ctrl + V", "Shift + V", "Shift + C", "Ctrl + C"],
+      "correct": "Ctrl + V"
+    },
+    {
+      "question3": "切り取り",
+      "answers": [ "Shift + V", "Shift + C", "Ctrl + C", "Ctrl + X"],
+      "correct": "Ctrl + X"
+    },
+    {
+      "question4": "元に戻す",
+      "answers": [ "Ctrl + V", "Ctrl + Z", "Shift + V", "Ctrl + R"],
+      "correct": "Ctrl + Z"
+    },
+    {
+      "question5": "やり直す",
+      "answers": [ "Shift + Z", "Crtl + Z", "Ctrl + Alt + Z", "Ctrl + Shift + Z"],
+      "correct": "Ctrl + Shift + Z"
+    },
+    {
+      "question6": "複数範囲選択",
+      "answers": [ "Ctrl + S", "Ctrl + F", "Ctrl + A", "Ctrl + D"],
+      "correct": "Ctrl + D"
+    },
+    {
+      "question7": "複数選択スキップ",
+      "answers": [ "Ctrl + S", "Ctrl + P", "Ctrl + F", "Ctrl + K"],
+      "correct": "Ctrl + K"
+    },
+    {
+      "question8": "検索",
+      "answers": [ "Ctrl + D", "Ctrl + F", "Ctrl + S", "Ctrl + R"],
+      "correct": "Ctrl + F"
+    },
+    {
+      "question9": "全ての検索一致を同時選択",
+      "answers": [ "Ctrl + F1", "Ctrl + F2", "Ctrl + F3", "Ctrl + F4"],
+      "correct": "Ctrl + F2"
+    },
+    {
+      "question10": "括弧の始まり/終わりに移動",
+      "answers": [ "Ctrl + Shift + /", "Ctrl + Tab + /", "Shift + /", "Ctrl + /"],
+      "correct": "Ctrl + Shift + /"
+    },
+    {
+      "question11": "シンボル名変更",
+      "answers": [ "F1", "F2", "F3", "F4"],
+      "correct": "F2"
+    },
+    {
+      "question12": "シンボル名を横断検索",
+      "answers": [ "Ctrl + B", "Ctrl + Home", "Ctrl + T", "Ctrl + Tab"],
+      "correct": "Ctrl + T"
+    },
+    {
+      "question13": "ファイル内のシンボルへ移動",
+      "answers": [ "Ctrl + Shift + O", "Ctrl + Tab + O", "Shift + O", "Tab + O"],
+      "correct": "Ctrl + Shift + O"
+    },
+    {
+      "question14": "コメントアウト/解除",
+      "answers": [ "Ctrl + Alt + /", "Ctrl + Shift + /", "Shift + /", "Ctrl + /"],
+      "correct": "Ctrl + /"
+    },
+    {
+      "question15": "範囲選択",
+      "answers": [ "Tab + ↑↓←→", "Shift + ↑↓←→", "Ctrl + ↑↓←→", "Shift + Ctrl + ↑↓←→"],
+      "correct": "Shift + ↑↓←→"
+    },
+    {
+      "question16": "同文字列選択",
+      "answers": [ "Tab + L", "Ctrl + L", "Ctrl + Shift + L", "Shift + L"],
+      "correct": "Ctrl + Shift + L"
+    },
+    {
+      "question17": "端移動",
+      "answers": [ "Tab + ↑↓←→", "Shift + ↑↓←→", "Home + ↑↓←→", "Fn + ↑↓←→"],
+      "correct": "Fn + ↑↓←→"
+    },
+    {
+      "question18": "単語移動",
+      "answers": [ "Ctrl + ←→", "Ctrl + ↑↓←→", "Ctrl + Tab + ←→", "Shift + ←→"],
+      "correct": "Ctrl + ←→"
+    },
+    {
+      "question19": "行の入替",
+      "answers": [ "Alt + ↑↓←→", "Ctrl + ←→", "Shift + Ctrl + ←→", "Ctrl + ↑↓←→"],
+      "correct": "Alt + ↑↓←→"
+    },
+    {
+      "question20": "指定行へ移動",
+      "answers": [ "Ctrl + S", "Ctrl + I", "Ctrl + G", "Ctrl + W"],
+      "correct": "Ctrl + G"
+    },
+    {
+      "question21": "マルチカーソル",
+      "answers": [ "Alt + Ctrl + ⇄", "Alt + Ctrl + ↑↓", "Shift + Ctrl + ↑↓", "Ctrl + ↑↓"],
+      "correct": "Alt + Ctrl + ↑↓"
+    },
+    {
+      "question22": "インデント",
+      "answers": [ "Tab + ]", "Shift + ]", " ]", "Ctrl + ]"],
+      "correct": "Ctrl + ]"
+    },
+    {
+      "question23": "アウトデント",
+      "answers": [ "Shift + [", " [", "Ctrl + [", "Alt + ["],
+      "correct": "Ctrl + ["
+    },
+    {
+      "question24": "行削除",
+      "answers": [ "Ctrl + Shift + K", "Ctrl + Shift + Delete", "Shift + K", "Ctrl + K"],
+      "correct": "Ctrl + Shift + K"
+    },
+    {
+      "question25": "新しいタブ",
+      "answers": [ "Ctrl + N", "Ctrl + Tab", "Shift + N", "Ctrl + Shift + N"],
+      "correct": "Ctrl + N"
+    },
+    {
+      "question26": "ファイル検索",
+      "answers": [ "Ctrl + F", "Shift + F", "Ctrl + Shift + F", "Home + F"],
+      "correct": "Ctrl + Shift + F"
+    },
+    {
+      "question27": "クイックオープン",
+      "answers": [ "Tab + P", "Ctrl + P", "Tab + O", "Ctrl + O"],
+      "correct": "Ctrl + P"
+    },
+    {
+      "question28": "ファイルを開く",
+      "answers": [ "Ctrl + O", "Tab + o", "Ctrl + F", "Tab + F"],
+      "correct": "Ctrl + O"
+    },
+    {
+      "question29": "ファイルを別タブで開く",
+      "answers": [ "Sihft + click", "Ctrl + Tab", "Tab + click", "Ctrl + click"],
+      "correct": "Ctrl + click"
+    },
+    {
+      "question30": "ファイル移動",
+      "answers": [ "Ctrl + Fn + 1~0", "Shift + Fn + 1~0", "Shift + Fn + ↑↓", "Ctrl + Fn + ↑↓"],
+      "correct": "Ctrl + Fn + ↑↓"
+    },
+    {
+      "question31": "新しいウィンドウ",
+      "answers": [ "Home + N", "Ctrl + Shift + N", "Sift + N", "Ctrl + N"],
+      "correct": "Ctrl + Shift + N"
+    },
+    {
+      "question32": "別名で保存",
+      "answers": [ "Ctrl + Tab + S", "Ctrl + Shift + S", "Ctrl + S", "Windows + Ctrl + S"],
+      "correct": "Ctrl + Shift + S"
+    },
+    {
+      "question33": "直前に閉じたタブを復元",
+      "answers": [ "Ctrl + T", "Shift + T", "Ctrl + Shift + T", "Ctrl + Alt + T"],
+      "correct": "Ctrl + Shift + T"
+    },
+    {
+      "question34": "フォルダを閉じる",
+      "answers": [ "Ctrl + A → F", "Ctrl + P → F", "Ctrl + K → P", "Ctrl + K → F"],
+      "correct": "Ctrl + K → F"
+    },
+    {
+      "question35": "ズームイン",
+      "answers": [ "Ctrl + +", "Shift + +", "Tab + +", "Windows + +"],
+      "correct": "Ctrl + +"
+    },
+    {
+      "question36": "ズームアウト",
+      "answers": [ "Ctrl + -", "Shift + -", "Tab + -", "windows + -"],
+      "correct": "Ctrl + -"
+    },
+    {
+      "question37": "問題タブをトグル",
+      "answers": [ "Ctrl + Shift + T", "Ctrl + Shift + M", "Ctrl + Shift + Y", "Ctrl + Shift + O"],
+      "correct": "Ctrl + Shift + M"
+    },
+    {
+      "question38": "サイドバー切り替え",
+      "answers": [ "Shift + B", "Ctrl + B", "Tab + B", "Alt + B"],
+      "correct": "Ctrl + B"
+    },
+    {
+      "question39": "コマンドライン",
+      "answers": [ "Ctrl + J", "Ctrl + K", "Ctrl + Tab + K", "Shift + J"],
+      "correct": "Ctrl + J"
+    }
+  ]
+
+  
+
+  
