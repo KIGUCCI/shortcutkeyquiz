@@ -2,18 +2,12 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-// 静的ファイルの提供
+// 静的ファイルの提供（public フォルダを参照せず、ファイルの実際の場所を指定）
+app.use(express.static(path.join(__dirname, 'src/public')));
+
+// ルートの定義
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
-
-// その他の静的ファイルの提供
-app.get('/script.js', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'script.js'));
-});
-
-app.get('/style.css', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'style.css'));
+    res.sendFile(path.join(__dirname, 'src/public', 'index.html')); // index.htmlを返す
 });
 
 // サーバーの起動
